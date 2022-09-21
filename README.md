@@ -43,3 +43,4 @@
 - Deploy your site to Azure, following the instructions provided on Blackboard.
 
 > It is best to take this little pieces at a time, step by step, as not to get confused by too many things at once. W3 Schools is an amazing resource, and has examples on everything above if you get stuck.
+https://crystalball20220920205842.azurewebsites.net/

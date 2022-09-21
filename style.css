@@ -64,7 +64,7 @@ h1 {
 button {
     width: 100px;
     margin: 5px;
-    border-radius: 4px;/* or whatever you like */
+    border-radius: 4px;
    
 }
     button:hover {
