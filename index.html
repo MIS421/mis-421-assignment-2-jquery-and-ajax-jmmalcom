@@ -4,13 +4,33 @@
 
 <head>
 
-  <link rel="stylesheet" href="./style.css">
-
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha384-i61gTtaoovXtAbKjo903+O55Jkn2+RtzHtvNez+yI49HAASvznhe9sZyjaSHTau9" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css" integrity="sha384-s5lqL1NMu1TdDS/75EsR2IKqj5g2SbplE63nRqwT70/kcm2uFLqKGOCp1phJ2ENd" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" integrity="sha384-4D3G3GikQs6hLlLZGdz5wLFzuqE9v4yVGAcOH86y23JqBDPzj9viv0EqyfIa6YUL" crossorigin="anonymous"></script>
+    <title>Crystal Ball</title>
 </head>
 
 <body>
+    <div id="search">
+    <script type="text/javascript" src="./script.js"></script>
+    <div id="searchBox">
+    <header><h1 onclick="changeStyle()">Crystal Ball</h1></header>
+    <input id="query" /> <br />
+    <button onclick="search()" value="search" type="button">Search</button>
+    <button onclick="Dates()" type="button">Time</button>
+    <br /><button onclick="imFeelingLucky()" id="feelinglucky">I'm Feeling Lucky</button>
+    </div>
 
-  <script type="text/javascript" src="./script.js"></script>
+    </div>
+
+    <div id="searchResults">
+
+    </div>
+    <div id="time">
+
+    </div>
+
 
 </body>
 
